@@ -22,7 +22,7 @@ class DataTransformer(object):
 
     def prepare_data(self):
         list_sentences_train = self.train_df["comment_text"].fillna("no comment").values
-        list_classes = ["toxic", "severe_toxic", "obscene", "threat", "insult", "identity_hate"]
+        list_classes = ["target", "severe_toxicity", "obscene", "threat", "insult", "identity_attack"]
         list_sentences_test = self.test_df["comment_text"].fillna("no comment").values
 
         print("Doing preprocessing...")
