@@ -18,7 +18,7 @@ train_sequences, training_labels, test_sequences = data_transformer.prepare_data
 
 
 print("Loading the pre-trained word embedding.")
-embeddings_index = data_loader.load_embedding('features/crawl-300d-2M.vec')
+embeddings_index = data_loader.load_embedding(FASTTEXT_PATH)
 embedding_matrix = data_transformer.build_embedding_matrix(embeddings_index)
 print("Loaded")
 
