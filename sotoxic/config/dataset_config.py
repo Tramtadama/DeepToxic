@@ -1,7 +1,7 @@
 # for dataset's path
-TRAIN_PATH = '../../input/train.csv'
-TEST_PATH = '../../input/test.csv'
-SAMPLE_SUBMISSION_PATH = '../../input/sample_submission.csv'
+TRAIN_PATH = '../Data/train_abl.csv'
+TEST_PATH = '../Data/test.csv'
+SAMPLE_SUBMISSION_PATH = '../Data/sample_submission.csv'
 
 # for feature's path
 CLEAN_WORDS_PATH = 'features/cleanwords.txt'
